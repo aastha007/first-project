@@ -137,7 +137,7 @@
 
 /* contact us page */
 .cclass{
-background-image: url("/Images/contact.jpg");
+background-image: url("../Images/contact.jpg");
 background-size: cover;	
 }
 
