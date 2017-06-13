@@ -1,0 +1,185 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.bclass{
+	background: linear-gradient(to bottom,#99ccff,#fff);
+	background-size: cover;
+}
+
+/*Home Page Header*/
+
+
+.hed{
+	background: #fff;
+	max-height: 90px;
+}
+
+.hed::after{
+	content: " ";
+	clear: both;
+	display: block;
+	/*visibility: none;*/
+}
+
+.hed-div{
+	max-width: 1000px;
+	margin:auto auto;
+}
+
+.hed-div-img{
+	float: left;
+}
+
+.hed-nav{
+	float: right;
+}
+
+.hed-nav ul li{
+	display: inline-block;
+}
+
+.hed-nav ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #0E90C7;
+	font-weight: bolder;
+	line-height: 100px;
+}
+
+.hed-nav ul li a:hover{
+	color: #F03E03;
+	 font-size: 120%;
+}
+
+.hed-nav ul li a:active {
+    font-size: 120%;
+}
+
+
+/*Home Page First Section*/
+
+.sec{
+	margin:0px 183px 50px 183px;
+	
+}
+
+.sec-div1{
+	margin: 0px 0px;
+	max-width: 1000px;
+}
+
+
+/*Hack*/
+.sec-div1::after{
+	content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+.sec-img1{
+	float: left;
+}
+
+.sec-img2{
+	float: right;
+}
+
+.sec-div2{
+	margin-top: 50px;
+}
+
+.sec-div2 label{
+	color:#5c00e6;
+}
+
+.sec::after{
+	content: " ";
+	display: block;
+	visibility: none;
+}
+
+.sec-img3{
+	border-radius: 50%;
+}
+
+.sec-img6{
+	border-radius: 50%;
+}
+
+
+
+
+/*Home Page Footer*/
+
+.foot{
+	max-width: 1000px;
+	margin-left: 183px;
+	margin-right: 183px;
+	text-align: center;
+	padding-bottom: 20px;
+	background: #ffff99;
+}
+
+/*.foot::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}*/
+
+
+
+/* contact us page */
+.cclass{
+background-image: url("/Images/contact.jpg");
+background-size: cover;	
+}
+
+
+.contact{
+	margin:90px 183px 90px 183px;
+	/*background-image: url("Images/contact.jpg");*/
+	
+}
+
+.contact-div1
+{
+	align-content: center;
+	padding: 100px 183px 100px 183px;
+}
+.contact-div1 form{
+	font-size: 150%;
+
+}
+
+.button{
+	height: 70px;
+	width: 70px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #000000;
+	border-radius: 50%;
+	background-color: #ff7733;
+	border-color: #ff7733;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: #ff5500;
+}
+
+.button:active{
+	background-color: #ff5500;
+	box-decoration-break:
+}
+
+
+
+
+
